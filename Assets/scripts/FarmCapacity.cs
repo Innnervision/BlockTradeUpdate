@@ -2,6 +2,7 @@ using System.Drawing;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class FarmCapacity : MonoBehaviour
 {
@@ -11,6 +12,7 @@ public class FarmCapacity : MonoBehaviour
 
     //calling the alert manager script here
     public AlertManager alertManager;
+    public TextMeshProUGUI capacityDisplayer;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -97,5 +99,10 @@ public class FarmCapacity : MonoBehaviour
             }
         }
 
+    }
+
+    private void Update()
+    {
+        capacityDisplayer.text = "" + size;
     }
 }

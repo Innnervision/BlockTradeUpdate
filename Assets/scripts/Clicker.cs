@@ -1,4 +1,3 @@
-
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -28,7 +27,6 @@ public class Clicker : MonoBehaviour
     public int farm9prize;
 
     // SHOP for buy Energy Supply
-
     public int energy2prize;
     public int energy3prize;
     public int energy4prize;
@@ -38,6 +36,17 @@ public class Clicker : MonoBehaviour
     public int energy8prize;
     public int energy9prize;
     public int energy10prize;
+
+    // Shop for the cactory Upgrades
+    public int factory2prize;
+    public int factory3prize;
+    public int factory4prize;
+    public int factory5prize;
+    public int factory6prize;
+    public int factory7prize;
+    public int factory8prize;
+    public int factory9prize;
+    public int factory10prize;
 
 
     //time manage
@@ -72,9 +81,20 @@ public class Clicker : MonoBehaviour
         energy7prize = 6;
         energy8prize = 7;
         energy9prize = 8;
-        energy10prize =9;
+        energy10prize = 9;
 
-       
+        //Factory Upgrade Prizes
+        factory2prize = 5;
+        factory3prize = 10;
+        factory4prize = 15;
+        factory5prize = 20;
+        factory6prize = 25;
+        factory7prize = 35;
+        factory8prize = 40;
+        factory9prize = 45;
+        factory10prize = 50;
+
+
     }
 
     // Update is called once per frame
@@ -86,7 +106,6 @@ public class Clicker : MonoBehaviour
         CurrentScore = CurrentScore + ScoreIncreasedPerSecond;
     }
 
-    
 
     // hits on the button
     public void Hit()
@@ -259,6 +278,87 @@ public class Clicker : MonoBehaviour
             x += 0.2f;
         }
     }
-}
-    
 
+    // Factory Upgrade Function
+
+    public void Factory2()
+    {
+        if (CurrentScore >= factory2prize)
+        {
+            CurrentScore -= factory2prize;
+            x += 0.2f;
+        }
+    }
+
+    public void Factory3()
+    {
+        if (CurrentScore >= factory3prize)
+        {
+            CurrentScore -= factory3prize;
+            x += 0.2f;
+        }
+    }
+
+    public void Factory4()
+    {
+        if (CurrentScore >= factory4prize)
+        {
+            CurrentScore -= factory4prize;
+            x += 0.2f;
+        }
+    }
+
+    public void Factory5()
+    {
+        if (CurrentScore >= factory5prize)
+        {
+            CurrentScore -= factory5prize;
+            x += 0.2f;
+        }
+    }
+
+    public void Factory6()
+    {
+        if (CurrentScore >= factory6prize)
+        {
+            CurrentScore -= factory6prize;
+            x += 0.2f;
+        }
+    }
+
+    public void Factory7()
+    {
+        if (CurrentScore >= factory7prize)
+        {
+            CurrentScore -= factory7prize;
+            x += 0.2f;
+        }
+    }
+
+    public void Factory8()
+    {
+        if (CurrentScore >= factory8prize)
+        {
+            CurrentScore -= factory8prize;
+            x += 0.2f;
+        }
+    }
+
+    public void Factory9()
+    {
+        if (CurrentScore >= factory9prize)
+        {
+            CurrentScore -= factory9prize;
+            x += 0.2f;
+        }
+    }
+
+    public void Factory10()
+    {
+        if (CurrentScore >= factory10prize)
+        {
+            CurrentScore -= factory10prize;
+            x += 0.2f;
+        }
+    }
+}

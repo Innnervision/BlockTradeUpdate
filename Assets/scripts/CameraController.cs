@@ -89,7 +89,7 @@ public class CameraController : MonoBehaviour
             }
         }
 
-        if (Input.GetMouseButtonDown(2))
+        /*if (Input.GetMouseButtonDown(2))
         {
             rotateStartPosition = Input.mousePosition;
         }
@@ -102,7 +102,7 @@ public class CameraController : MonoBehaviour
             rotateStartPosition = rotateCurrentPosition;
 
             newRotation *= Quaternion.Euler(Vector3.up * (-difference.x/5f));
-        }
+        }*/
     }
 
     void HandleMovementInput()

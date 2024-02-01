@@ -3,7 +3,47 @@ guid: 4e030394fb791a645992ebc2b69cda67
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BT_blue
+    second: {fileID: 2100000, guid: 294445fbc7db419499f3aa3c5653e9f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BT_blue.001
+    second: {fileID: 2100000, guid: 39c2dabd37af2c8479b361404adfd8c7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BT_orange
+    second: {fileID: 2100000, guid: 859b31910dae4d04491ca104dde378e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BT_orange.022
+    second: {fileID: 2100000, guid: c8fc59e3fe0ad9c4cb981432f34f7d1d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Black
+    second: {fileID: 2100000, guid: 849d8ea05509ea64e91060c23dcea7fa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Black.010
+    second: {fileID: 2100000, guid: 029b1ca6981a8b64cb3380bf1a4c5cfa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Blueish Grey
+    second: {fileID: 2100000, guid: b699ae99858017a48ad6a649fbd653a5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Grass Green.001
+    second: {fileID: 2100000, guid: 4f6aed23b2f89dc4ea285ccc35f95ee3, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

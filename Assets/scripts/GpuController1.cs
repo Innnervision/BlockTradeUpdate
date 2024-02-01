@@ -25,18 +25,18 @@ public class GpuController1 : MonoBehaviour
     public Clicker clicker;
 
     // Capacity of all the farm 1           
-    public int capacity1 = 20;
-    public int capacity2 = 100;
-    public int capacity3 = 150;
-    public int capacity4 = 200;
-    public int capacity5 = 250;
+    public int capacity1 = 500;
+    public int capacity2 = 1000;
+    public int capacity3 = 4000;
+    public int capacity4 = 10000;
+    public int capacity5 = 50000;
 
     //Capacity of all the farm 2
-    public int capacity6 = 300;
-    public int capacity7 = 350;
-    public int capacity8 = 400;
-    public int capacity9 = 450;
-    public int capacity10 = 500;
+    public int capacity6 = 200000;
+    public int capacity7 = 1000000;
+    public int capacity8 = 5000000;
+    public int capacity9 = 25000000;
+    public int capacity10 = 100000000;
 
 
     //Capacity of all the farm 3

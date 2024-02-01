@@ -44,21 +44,37 @@ public class Panel_Button_Upgrades : MonoBehaviour
     {
         if (clicker.CurrentScore >= clicker.farm1prize)
         {
-            farm[0].farmButtons[0].GetComponent<Button>().interactable = true;
+            for (int i = 0; i < 5; i++)
+            {
+                for (int j = 0; j < 1; j++)
+                {
+                    farm[i].farmButtons[j].GetComponent<Button>().interactable = true;
+                }
+            }
+
+            /*farm[0].farmButtons[0].GetComponent<Button>().interactable = true;
             farm[1].farmButtons[0].GetComponent<Button>().interactable = true;
             farm[2].farmButtons[0].GetComponent<Button>().interactable = true;
             farm[3].farmButtons[0].GetComponent<Button>().interactable = true;
-            farm[4].farmButtons[0].GetComponent<Button>().interactable = true;
+            farm[4].farmButtons[0].GetComponent<Button>().interactable = true;*/
         }
         else
         {
             if (clicker.CurrentScore <= clicker.farm1prize)
             {
-                farm[0].farmButtons[0].GetComponent<Button>().interactable = false;
+                for (int i = 0; i < 5; i++)
+                {
+                    for (int j = 0; j < 1; j++)
+                    {
+                        farm[i].farmButtons[j].GetComponent<Button>().interactable = false;
+                    }
+                }
+
+                /*farm[0].farmButtons[0].GetComponent<Button>().interactable = false;
                 farm[1].farmButtons[0].GetComponent<Button>().interactable = false;
                 farm[2].farmButtons[0].GetComponent<Button>().interactable = false;
                 farm[3].farmButtons[0].GetComponent<Button>().interactable = false;
-                farm[4].farmButtons[0].GetComponent<Button>().interactable = false;
+                farm[4].farmButtons[0].GetComponent<Button>().interactable = false;*/
             }
         }
     }
@@ -67,21 +83,37 @@ public class Panel_Button_Upgrades : MonoBehaviour
     {
         if (clicker.CurrentScore >= clicker.farm2prize)
         {
-            farm[0].farmButtons[1].GetComponent<Button>().interactable = true;
+            for (int i = 0; i < 5; i++)
+            {
+                for (int j = 1; j < 2; j++)
+                {
+                    farm[i].farmButtons[j].GetComponent<Button>().interactable = true;
+                }
+            }
+
+            /*farm[0].farmButtons[1].GetComponent<Button>().interactable = true;
             farm[1].farmButtons[1].GetComponent<Button>().interactable = true;
             farm[2].farmButtons[1].GetComponent<Button>().interactable = true;
             farm[3].farmButtons[1].GetComponent<Button>().interactable = true;
-            farm[4].farmButtons[1].GetComponent<Button>().interactable = true;
+            farm[4].farmButtons[1].GetComponent<Button>().interactable = true;*/
         }
         else
         {
             if (clicker.CurrentScore <= clicker.farm2prize)
             {
-                farm[0].farmButtons[1].GetComponent<Button>().interactable = false;
+                for (int i = 0; i < 5; i++)
+                {
+                    for (int j = 1; j < 2; j++)
+                    {
+                        farm[i].farmButtons[j].GetComponent<Button>().interactable = false;
+                    }
+                }
+
+                /*farm[0].farmButtons[1].GetComponent<Button>().interactable = false;
                 farm[1].farmButtons[1].GetComponent<Button>().interactable = false;
                 farm[2].farmButtons[1].GetComponent<Button>().interactable = false;
                 farm[3].farmButtons[1].GetComponent<Button>().interactable = false;
-                farm[4].farmButtons[1].GetComponent<Button>().interactable = false;
+                farm[4].farmButtons[1].GetComponent<Button>().interactable = false;*/
             }
         }
     }
@@ -90,21 +122,38 @@ public class Panel_Button_Upgrades : MonoBehaviour
     {
         if (clicker.CurrentScore >= clicker.farm3prize)
         {
-            farm[0].farmButtons[2].GetComponent<Button>().interactable = true;
+            for (int i = 0; i < 5; i++)
+            {
+                for (int j = 2; j < 3; j++)
+                {
+                    farm[i].farmButtons[j].GetComponent<Button>().interactable = true;
+                }
+            }
+
+            /*farm[0].farmButtons[2].GetComponent<Button>().interactable = true;
             farm[1].farmButtons[2].GetComponent<Button>().interactable = true;
             farm[2].farmButtons[2].GetComponent<Button>().interactable = true;
             farm[3].farmButtons[2].GetComponent<Button>().interactable = true;
-            farm[4].farmButtons[2].GetComponent<Button>().interactable = true;
+            farm[4].farmButtons[2].GetComponent<Button>().interactable = true;*/
         }
         else
         {
             if (clicker.CurrentScore <= clicker.farm3prize)
             {
-                farm[0].farmButtons[2].GetComponent<Button>().interactable = false;
+
+                for (int i = 0; i < 5; i++)
+                {
+                    for (int j = 2; j < 3; j++)
+                    {
+                        farm[i].farmButtons[j].GetComponent<Button>().interactable = false;
+                    }
+                }
+
+                /*farm[0].farmButtons[2].GetComponent<Button>().interactable = false;
                 farm[1].farmButtons[2].GetComponent<Button>().interactable = false;
                 farm[2].farmButtons[2].GetComponent<Button>().interactable = false;
                 farm[3].farmButtons[2].GetComponent<Button>().interactable = false;
-                farm[4].farmButtons[2].GetComponent<Button>().interactable = false;
+                farm[4].farmButtons[2].GetComponent<Button>().interactable = false;*/
             }
         }
     }
@@ -113,21 +162,37 @@ public class Panel_Button_Upgrades : MonoBehaviour
     {
         if (clicker.CurrentScore >= clicker.farm4prize)
         {
-            farm[0].farmButtons[3].GetComponent<Button>().interactable = true;
+            for (int i = 0; i < 5; i++)
+            {
+                for (int j = 3; j < 4; j++)
+                {
+                    farm[i].farmButtons[j].GetComponent<Button>().interactable = true;
+                }
+            }
+
+            /*farm[0].farmButtons[3].GetComponent<Button>().interactable = true;
             farm[1].farmButtons[3].GetComponent<Button>().interactable = true;
             farm[2].farmButtons[3].GetComponent<Button>().interactable = true;
             farm[3].farmButtons[3].GetComponent<Button>().interactable = true;
-            farm[4].farmButtons[3].GetComponent<Button>().interactable = true;
+            farm[4].farmButtons[3].GetComponent<Button>().interactable = true;*/
         }
         else
         {
             if (clicker.CurrentScore <= clicker.farm4prize)
             {
-                farm[0].farmButtons[3].GetComponent<Button>().interactable = false;
+                for (int i = 0; i < 5; i++)
+                {
+                    for (int j = 3; j < 4; j++)
+                    {
+                        farm[i].farmButtons[j].GetComponent<Button>().interactable = false;
+                    }
+                }
+
+                /*farm[0].farmButtons[3].GetComponent<Button>().interactable = false;
                 farm[1].farmButtons[3].GetComponent<Button>().interactable = false;
                 farm[2].farmButtons[3].GetComponent<Button>().interactable = false;
                 farm[3].farmButtons[3].GetComponent<Button>().interactable = false;
-                farm[4].farmButtons[3].GetComponent<Button>().interactable = false;
+                farm[4].farmButtons[3].GetComponent<Button>().interactable = false;*/
             }
         }
     }
@@ -136,21 +201,37 @@ public class Panel_Button_Upgrades : MonoBehaviour
     {
         if (clicker.CurrentScore >= clicker.farm5prize)
         {
-            farm[0].farmButtons[4].GetComponent<Button>().interactable = true;
+            for (int i = 0; i < 5; i++)
+            {
+                for (int j = 4; j < 5; j++)
+                {
+                    farm[i].farmButtons[j].GetComponent<Button>().interactable = true;
+                }
+            }
+
+            /*farm[0].farmButtons[4].GetComponent<Button>().interactable = true;
             farm[1].farmButtons[4].GetComponent<Button>().interactable = true;
             farm[2].farmButtons[4].GetComponent<Button>().interactable = true;
             farm[3].farmButtons[4].GetComponent<Button>().interactable = true;
-            farm[4].farmButtons[4].GetComponent<Button>().interactable = true;
+            farm[4].farmButtons[4].GetComponent<Button>().interactable = true;*/
         }
         else
         {
             if (clicker.CurrentScore <= clicker.farm5prize)
             {
-                farm[0].farmButtons[4].GetComponent<Button>().interactable = false;
+                for (int i = 0; i < 5; i++)
+                {
+                    for (int j = 4; j < 5; j++)
+                    {
+                        farm[i].farmButtons[j].GetComponent<Button>().interactable = false;
+                    }
+                }
+
+                /*farm[0].farmButtons[4].GetComponent<Button>().interactable = false;
                 farm[1].farmButtons[4].GetComponent<Button>().interactable = false;
                 farm[2].farmButtons[4].GetComponent<Button>().interactable = false;
                 farm[3].farmButtons[4].GetComponent<Button>().interactable = false;
-                farm[4].farmButtons[4].GetComponent<Button>().interactable = false;
+                farm[4].farmButtons[4].GetComponent<Button>().interactable = false;*/
             }
         }
     }
@@ -159,21 +240,37 @@ public class Panel_Button_Upgrades : MonoBehaviour
     {
         if (clicker.CurrentScore >= clicker.farm6prize)
         {
-            farm[0].farmButtons[5].GetComponent<Button>().interactable = true;
+            for (int i = 0; i < 5; i++)
+            {
+                for (int j = 5; j < 6; j++)
+                {
+                    farm[i].farmButtons[j].GetComponent<Button>().interactable = true;
+                }
+            }
+
+            /*farm[0].farmButtons[5].GetComponent<Button>().interactable = true;
             farm[1].farmButtons[5].GetComponent<Button>().interactable = true;
             farm[2].farmButtons[5].GetComponent<Button>().interactable = true;
             farm[3].farmButtons[5].GetComponent<Button>().interactable = true;
-            farm[4].farmButtons[5].GetComponent<Button>().interactable = true;
+            farm[4].farmButtons[5].GetComponent<Button>().interactable = true;*/
         }
         else
         {
             if (clicker.CurrentScore <= clicker.farm6prize)
             {
-                farm[0].farmButtons[5].GetComponent<Button>().interactable = false;
+                for (int i = 0; i < 5; i++)
+                {
+                    for (int j = 5; j < 6; j++)
+                    {
+                        farm[i].farmButtons[j].GetComponent<Button>().interactable = false;
+                    }
+                }
+
+                /*farm[0].farmButtons[5].GetComponent<Button>().interactable = false;
                 farm[1].farmButtons[5].GetComponent<Button>().interactable = false;
                 farm[2].farmButtons[5].GetComponent<Button>().interactable = false;
                 farm[3].farmButtons[5].GetComponent<Button>().interactable = false;
-                farm[4].farmButtons[5].GetComponent<Button>().interactable = false;
+                farm[4].farmButtons[5].GetComponent<Button>().interactable = false;*/
             }
         }
     }
@@ -183,21 +280,37 @@ public class Panel_Button_Upgrades : MonoBehaviour
     {
         if (clicker.CurrentScore >= clicker.farm7prize)
         {
-            farm[0].farmButtons[6].GetComponent<Button>().interactable = true;
+            for (int i = 0; i < 5; i++)
+            {
+                for (int j = 6; j < 7; j++)
+                {
+                    farm[i].farmButtons[j].GetComponent<Button>().interactable = true;
+                }
+            }
+
+            /*farm[0].farmButtons[6].GetComponent<Button>().interactable = true;
             farm[1].farmButtons[6].GetComponent<Button>().interactable = true;
             farm[2].farmButtons[6].GetComponent<Button>().interactable = true;
             farm[3].farmButtons[6].GetComponent<Button>().interactable = true;
-            farm[4].farmButtons[6].GetComponent<Button>().interactable = true;
+            farm[4].farmButtons[6].GetComponent<Button>().interactable = true;*/
         }
         else
         {
             if (clicker.CurrentScore <= clicker.farm7prize)
             {
-                farm[0].farmButtons[6].GetComponent<Button>().interactable = false;
+                for (int i = 0; i < 5; i++)
+                {
+                    for (int j = 6; j < 7; j++)
+                    {
+                        farm[i].farmButtons[j].GetComponent<Button>().interactable = false;
+                    }
+                }
+
+                /*farm[0].farmButtons[6].GetComponent<Button>().interactable = false;
                 farm[1].farmButtons[6].GetComponent<Button>().interactable = false;
                 farm[2].farmButtons[6].GetComponent<Button>().interactable = false;
                 farm[3].farmButtons[6].GetComponent<Button>().interactable = false;
-                farm[4].farmButtons[6].GetComponent<Button>().interactable = false;
+                farm[4].farmButtons[6].GetComponent<Button>().interactable = false;*/
             }
         }
     }
@@ -207,21 +320,37 @@ public class Panel_Button_Upgrades : MonoBehaviour
     {
         if (clicker.CurrentScore >= clicker.farm8prize)
         {
-            farm[0].farmButtons[7].GetComponent<Button>().interactable = true;
+            for (int i = 0; i < 5; i++)
+            {
+                for (int j = 7; j < 8; j++)
+                {
+                    farm[i].farmButtons[j].GetComponent<Button>().interactable = true;
+                }
+            }
+
+            /*farm[0].farmButtons[7].GetComponent<Button>().interactable = true;
             farm[1].farmButtons[7].GetComponent<Button>().interactable = true;
             farm[2].farmButtons[7].GetComponent<Button>().interactable = true;
             farm[3].farmButtons[7].GetComponent<Button>().interactable = true;
-            farm[4].farmButtons[7].GetComponent<Button>().interactable = true;
+            farm[4].farmButtons[7].GetComponent<Button>().interactable = true;*/
         }
         else
         {
             if (clicker.CurrentScore <= clicker.farm8prize)
             {
-                farm[0].farmButtons[7].GetComponent<Button>().interactable = false;
+                for (int i = 0; i < 5; i++)
+                {
+                    for (int j = 7; j < 8; j++)
+                    {
+                        farm[i].farmButtons[j].GetComponent<Button>().interactable = false;
+                    }
+                }
+
+                /*farm[0].farmButtons[7].GetComponent<Button>().interactable = false;
                 farm[1].farmButtons[7].GetComponent<Button>().interactable = false;
                 farm[2].farmButtons[7].GetComponent<Button>().interactable = false;
                 farm[3].farmButtons[7].GetComponent<Button>().interactable = false;
-                farm[4].farmButtons[7].GetComponent<Button>().interactable = false;
+                farm[4].farmButtons[7].GetComponent<Button>().interactable = false;*/
             }
         }
     }
@@ -231,21 +360,38 @@ public class Panel_Button_Upgrades : MonoBehaviour
     {
         if (clicker.CurrentScore >= clicker.farm9prize)
         {
-            farm[0].farmButtons[8].GetComponent<Button>().interactable = true;
+
+            for (int i = 0; i < 5; i++)
+            {
+                for (int j = 8; j < 9; j++)
+                {
+                    farm[i].farmButtons[j].GetComponent<Button>().interactable = true;
+                }
+            }
+
+            /*farm[0].farmButtons[8].GetComponent<Button>().interactable = true;
             farm[1].farmButtons[8].GetComponent<Button>().interactable = true;
             farm[2].farmButtons[8].GetComponent<Button>().interactable = true;
             farm[3].farmButtons[8].GetComponent<Button>().interactable = true;
-            farm[4].farmButtons[8].GetComponent<Button>().interactable = true;
+            farm[4].farmButtons[8].GetComponent<Button>().interactable = true;*/
         }
         else
         {
             if (clicker.CurrentScore <= clicker.farm9prize)
             {
-                farm[0].farmButtons[8].GetComponent<Button>().interactable = false;
+                for (int i = 0; i < 5; i++)
+                {
+                    for (int j = 8; j < 9; j++)
+                    {
+                        farm[i].farmButtons[j].GetComponent<Button>().interactable = false;
+                    }
+                }
+
+                /*farm[0].farmButtons[8].GetComponent<Button>().interactable = false;
                 farm[1].farmButtons[8].GetComponent<Button>().interactable = false;
                 farm[2].farmButtons[8].GetComponent<Button>().interactable = false;
                 farm[3].farmButtons[8].GetComponent<Button>().interactable = false;
-                farm[4].farmButtons[8].GetComponent<Button>().interactable = false;
+                farm[4].farmButtons[8].GetComponent<Button>().interactable = false;*/
             }
         }
     }
